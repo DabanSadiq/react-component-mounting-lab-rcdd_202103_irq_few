@@ -30,23 +30,23 @@ class Timer extends Component {
       </section>
     );
   }
-
-  //clock functions
-  clockTick = () => {
-    this.setState(prevState => ({
-      time: prevState.time+1
-    }))
-  }
-
-  stopClock = () => {
-    clearInterval(this.interval)
-  }
-
-  // for the 'x' button,
-  handleClose = () => {
-    this.props.removeTimer(this.props.id)
-  }
-
+  // 
+  // //clock functions
+  // clockTick = () => {
+  //   this.setState(prevState => ({
+  //     time: prevState.time+1
+  //   }))
+  // }
+  // 
+  // stopClock = () => {
+  //   clearInterval(this.interval)
+  // }
+  // 
+  // // for the 'x' button,
+  // handleClose = () => {
+  //   this.props.removeTimer(this.props.id)
+  // }
+  // 
 
 }
 
